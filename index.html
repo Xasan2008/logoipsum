@@ -1,31 +1,134 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project</title>
 
-  <!-- Theme toggling adaptation to user settings -->
-  <!-- <script>
-    let localSTheme = localStorage.getItem('theme');
-    let themeToSet = localSTheme;
-
-    if (!localSTheme) {
-      themeToSet = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    }
-
-    document.documentElement.setAttribute('data-theme', themeToSet);
-  </script> -->
-
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
 
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Mulish&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <h1 class="logo__h1">
+          <img class="header__logo" src="./img/Logo_Color.png" alt="">
+        </h1>
+        <nav class="header__nav">
+          <a href="" class="header__a-nav active">Home</a>
+          <a href="" class="header__a-nav">Features</a>
+          <a href="" class="header__a-nav">Pricing</a>
+          <a href="" class="header__a-nav">Blog</a>
+        </nav>
+        <a href="#" class="header__a-button">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__text-container">
+            <h2 class="intro__h2">Grow your
+              subscription
+              business</h2>
+            <p class="intro__p">Outcome-centered products that reduce churn, optimize pricing, and grow your
+              subscription business end-to-end.</p>
+            <div class="intro__div-a_container">
+              <a href="" class="intro__a">Get Started</a>
+              <img class="intro__img-a" src="./img/Down_Arrow.svg" width="60" height="60" alt="">
+            </div>
+          </div>
+          <img class="intro__img" src="./img/Hero_3D.png" width="580" height="644" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="logos">
+      <div class="container">
+        <div class="logos__inner">
+          <img class="logos__img" src="./img/Group.svg" alt="">
+          <img class="logos__img" src="./img/Group-1.svg" alt="">
+          <img class="logos__img" src="./img/Group-2.svg" alt="">
+          <img class="logos__img" src="./img/Group-3.svg" alt="">
+          <img class="logos__img" src="./img/Group-4.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <div class="content__inner">
+          <div class="content__div-container">
+            <img class="content__img" src="./img/Content_Image.png" alt="">
+            <div class="content__div-text">
+              <h4 class="content__h4">Subscription index</h4>
+              <p class="content__p">A daily dataset to keep you up to date on subscription market trends and what's
+                happening in your vertical.</p>
+              <a class="content__a" href="#">Learn more</a>
+            </div>
+          </div>
+
+          <div class="content__div-container">
+            <div class="content__div-text">
+              <h4 class="content__h4">In-depth metrics</h4>
+              <p class="content2__p">Accurate, real-time reporting at your fingertips. Getting data has never been
+                easier.</p>
+              <a class="content__a" href="#">Learn more</a>
+            </div>
+            <img class="content2__img" src="./img/Content_Image_02.png" alt="">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="container">
+        <div class="item__inner">
+          <div class="item__div">
+            <img  class="item__img" src="./img/Icon001.png" alt="">
+            <h3 class="item__h3">Benchmarks</h3>
+            <p class="item__p">See how you stack up against comparable companies in similar stages.</p>
+          </div>
+          <div class="item__div">
+            <img  class="item__img" src="./img/Icon002.png" alt="">
+            <h3 class="item__h3">Pricing Audit</h3>
+            <p class="item__p">Benchmark the health of your monetization and pricing strategy.</p>
+          </div>
+          <div class="item__div">
+            <img class="item__img" src="./img/Icon003.png" alt="">
+            <h3 class="item__h3">Retention Audit</h3>
+            <p class="item__p">Audit where revenue leakage exists and where you can increase retention.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get">
+      <div class="container">
+        <div class="get__inner">
+          <h3 class="het__h3">Get the right plan for future product.</h3>
+          <div class="get__div-button"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
 
   <script src="js/main.js"></script>
 </body>
+
 </html>
